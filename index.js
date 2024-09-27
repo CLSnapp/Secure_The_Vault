@@ -23,12 +23,9 @@ console.log(sum3);
 
 const dialog =
   "have received this message because you have been chosen to open an important vault. Here is the secret combination:";
-let number1 = "10";
-let number2 = "40";
-let number3 = "39";
+// let number1 = "10";
+// let number2 = "40";
+// let number3 = "39";
 
-
+alert(`You  ${dialog}  ${sum}  -  ${sum2}  -  ${sum3}`);
 //expected output: Alert popup in browser, showing the dialog + the number combinations.
-
-alert(`You  ${dialog}  ${number1}  -  ${number2}  -  ${number3}`)
-//expected output: message stating the secret combination
